@@ -1,0 +1,102 @@
+.no-support-message { display:none; }
+.impress-not-supported .no-support-message { display:block; }
+
+/* additional styles just to make things look a bit nicer */
+body { background:#EBEBEB; font:16px/24px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color:#333; }
+.step { width:940px; margin:0 auto 24px auto; text-align:center; }
+
+body{
+	width:1024px;
+	font-size:20px;
+    background: url(bg.png);
+    color: #ffffff;
+}
+.left{
+	text-align: left;
+}
+.green{
+	color: #91E22E;
+}
+
+.red{
+	color: #F92F10;
+}
+
+.orange{
+	color: #FD7521;
+}
+
+.cream{
+	color: #E6DB74;
+}
+
+.blue{
+	color:#3287D0;
+}
+
+.purple{
+	color:#AE81FF;
+}
+
+.pink{
+	color:#F92672;
+}
+
+.yellow{
+	color:#F9F22E;
+}
+.aqua{
+	color:#22F5E9;
+}
+#slide1 ul{
+	list-style-type: none;
+}
+
+#start{
+	text-align:center;
+	width:1024px;
+	font-size:80px;
+}
+#slide1{
+	text-align:center;
+	width:1024px;
+}
+#slide2{
+	text-align:center;
+	width:1024px;
+}
+
+#slide2 li{
+	padding: 5px; 
+}
+.step{
+	text-align:center;
+	width:1024px;
+}
+
+.hint_text{
+	font-size:30px;
+	background-color:#EEE;
+	padding:15px;
+}
+
+.fallback-message {
+	font-family: sans-serif;
+	line-height: 1.3;
+
+	width: 780px;
+	padding: 10px 10px 0;
+	margin: 20px auto;
+
+	border: 1px solid #E4C652;
+	border-radius: 10px;
+	background: #EEDC94;
+}
+
+.fallback-message p {
+	margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+	display: none;
+}
